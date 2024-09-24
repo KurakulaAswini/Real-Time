@@ -1,0 +1,58 @@
+/*Author: Bhavdeep Singh Nijhawan*/
+
+.App {
+  font-family: Arial, sans-serif;
+  margin: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+  flex-direction: column;
+}
+
+textarea {
+  width: 100%;
+  max-width: 1500px;
+  padding: 100px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  border: 1px solid #ccc;
+  background-color: #333;
+  color: white;
+}
+
+.statistics {
+  margin-bottom: 20px;
+}
+
+.replace-section {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 14px;
+  background-color: #333;
+  color: white;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #444;
+  color: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.highlighted-text {
+  background-color: #333;
+  padding: 10px;
+  border: 1px solid #ddd;
+  color: white;
+}
